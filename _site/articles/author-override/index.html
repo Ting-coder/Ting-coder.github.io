@@ -2,15 +2,15 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Author Override • 听海听心</title>
-    <meta name="description" content="A post to test author overrides using a data file.">
+    <title>第一篇文章 • 听海听心</title>
+    <meta name="description" content="第一篇文章概览">
     <meta name="keywords" content="">
     
     	<!-- Twitter Cards -->
-	<meta name="twitter:title" content="Author Override">
-	<meta name="twitter:description" content="A post to test author overrides using a data file.">
-	<meta name="twitter:site" content="@mmistakes">
-	<meta name="twitter:creator" content="@extravagantman">
+	<meta name="twitter:title" content="第一篇文章">
+	<meta name="twitter:description" content="第一篇文章概览">
+	<meta name="twitter:site" content="@听海听心">
+	
 	
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:image" content="http://localhost:4000/images/120x120.gif">
@@ -18,8 +18,8 @@
 	<!-- Open Graph -->
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Author Override">
-	<meta property="og:description" content="A post to test author overrides using a data file.">
+	<meta property="og:title" content="第一篇文章">
+	<meta property="og:description" content="第一篇文章概览">
 	<meta property="og:url" content="http://localhost:4000/articles/author-override/">
 	<meta property="og:site_name" content="听海听心">
 
@@ -53,47 +53,47 @@
 	<li class="home"><a href="/">听海听心</a></li>
 	
     
-    <li><a href="http://localhost:4000/getting-started/" >Getting Started</a></li>
+    <li><a href="http://localhost:4000/getting-started/" >首 页</a></li>
   
     
-    <li><a href="http://localhost:4000/articles/" >Sample Articles</a></li>
+    <li><a href="http://localhost:4000/articles/" >文 章</a></li>
   
     
-    <li><a href="http://localhost:4000/media/" >Media</a></li>
+    <li><a href="http://localhost:4000/media/" >媒 体</a></li>
   
     
-    <li><a href="http://localhost:4000/about/" >About</a></li>
+    <li><a href="http://localhost:4000/about/" >关 于</a></li>
   
 </ul>
     </nav>
   </div><!-- /.inner-wrap -->
 </header><!-- /.masthead -->
     <nav role="navigation" id="js-menu" class="sliding-menu-content">
-  <h5>听海听心 <span>Table of Contents</span></h5>
+  <h5>听海听心 <span>索引</span></h5>
   <ul class="menu-item">
     <li>
       <a href="http://localhost:4000/getting-started/">
         <img src="http://localhost:4000/images/400x250.gif" alt="teaser" class="teaser">
-        <div class="title">Getting Started</div>
-        <p class="excerpt">Everything you need to know to get started with Skinny Bones and Jekyll.</p>
+        <div class="title">首 页</div>
+        <p class="excerpt">让我们开始吧</p>
       </a>
     </li><li>
       <a href="http://localhost:4000/articles/">
         <img src="http://localhost:4000/images/400x250.gif" alt="teaser" class="teaser">
-        <div class="title">Sample Articles</div>
-        <p class="excerpt">Examples of long form posts.</p>
+        <div class="title">文 章</div>
+        <p class="excerpt">相关文章</p>
       </a>
     </li><li>
       <a href="http://localhost:4000/media/">
         <img src="http://localhost:4000/images/400x250.gif" alt="teaser" class="teaser">
-        <div class="title">Media</div>
-        <p class="excerpt">Examples of media posts perfect for showcasing work, photographs, etc.</p>
+        <div class="title">媒 体</div>
+        <p class="excerpt">媒体相关</p>
       </a>
     </li><li>
       <a href="http://localhost:4000/about/">
         <img src="http://localhost:4000/images/400x250.gif" alt="teaser" class="teaser">
-        <div class="title">About</div>
-        <p class="excerpt">All about Skinny Bones for Jekyll.</p>
+        <div class="title">关 于</div>
+        <p class="excerpt">我就是我！</p>
       </a>
     </li>
   </ul>
@@ -109,51 +109,22 @@
       <div id="main" role="main">
 	<article class="wrap" itemscope itemtype="http://schema.org/Article">
 		
-		
-  <nav class="breadcrumbs">
-    <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-      <a href="http://localhost:4000" itemprop="url">
-        <span itemprop="title">Home</span>
-      </a> › 
-    <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-      <a href="http://localhost:4000/articles/" itemprop="url">
-        <span itemprop="title">Articles</span>
-      </a>
-    </span>
-  </nav><!-- /.breadcrumbs -->
-
 		<div class="page-title">
-			<h1>Author Override</h1>
+			<h1>第一篇文章</h1>
 		</div>
 		<div class="inner-wrap">
 			<div id="content" class="page-content" itemprop="articleBody">
-				<p>For those of you who may have content written by multiple authors on your site you can assign different authors to each post if desired.</p>
+				<p>第一部分</p>
 
-<p>Traditionally you would assign a global author for the entire site and those attributes would be used in all post bylines, social networking links in the footer, Twitter Cards, and Google Authorship. These <code class="highlighter-rouge">owner</code> variables defined in your <code class="highlighter-rouge">config.yml</code></p>
+<div class="language-objc highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="err">代码段一</span>
 
-<p>Start by creating an <code class="highlighter-rouge">authors.yml</code> file in the <code class="highlighter-rouge">_data</code> folder and add your authors using the following format.</p>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Authors</span>
-
-<span class="na">billy_rick</span><span class="pi">:</span>
-  <span class="na">name</span><span class="pi">:</span> <span class="s">Billy Rick</span>
-  <span class="na">web</span><span class="pi">:</span> <span class="s">http://thewhip.com</span>
-  <span class="na">email</span><span class="pi">:</span> <span class="s">billy@rick.com</span>
-  <span class="na">bio</span><span class="pi">:</span> <span class="s2">"</span><span class="s">What</span><span class="nv"> </span><span class="s">do</span><span class="nv"> </span><span class="s">you</span><span class="nv"> </span><span class="s">want,</span><span class="nv"> </span><span class="s">jewels?</span><span class="nv"> </span><span class="s">I</span><span class="nv"> </span><span class="s">am</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">very</span><span class="nv"> </span><span class="s">extravagant</span><span class="nv"> </span><span class="s">man."</span>
-  <span class="na">avatar</span><span class="pi">:</span> <span class="s">bio-photo.jpg</span>
-  <span class="na">twitter</span><span class="pi">:</span> <span class="s">extravagantman</span>
-
-<span class="na">cornelius_fiddlebone</span><span class="pi">:</span>
-  <span class="na">name</span><span class="pi">:</span> <span class="s">Cornelius Fiddlebone</span>
-  <span class="na">email</span><span class="pi">:</span> <span class="s">cornelius@thewhip.com</span>
-  <span class="na">bio</span><span class="pi">:</span> <span class="s2">"</span><span class="s">I</span><span class="nv"> </span><span class="s">ordered</span><span class="nv"> </span><span class="s">what?"</span>
-  <span class="na">avatar</span><span class="pi">:</span> <span class="s">bio-photo.jpg</span>
-  <span class="na">twitter</span><span class="pi">:</span> <span class="s">rhymeswithsackit</span>
 </code></pre></div></div>
+<p>第二部分</p>
 
-<p>To assign Billy Rick as an author for our post. We’d add the following YAML front matter to a post:</p>
+<div class="language-objc highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="err">代码段二</span>
 
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">author</span><span class="pi">:</span> <span class="s">billy_rick</span>
 </code></pre></div></div>
 
 				<hr />
@@ -161,20 +132,15 @@
 					
 
 <div class="author-image">
-	<img src="http://localhost:4000/images/bio-photo.jpg" alt="Billy Rick">
+	<img src="http://localhost:4000/images/bio-photo.jpg" alt="听海听心">
 </div><!-- ./author-image -->
 <div class="author-content">
-	<h3 class="author-name" >Written by <a href="http://thewhip.com" itemprop="author">Billy Rick</a></h3>
-	<p class="author-bio">What do you want, jewels? I am a very extravagant man.</p>
+	<h3 class="author-name" >作者 <a href="http://thewhip.com" itemprop="author">听海听心</a></h3>
+	<p class="author-bio">iOS工程师</p>
 </div><!-- ./author-content -->
-					<div class="inline-btn">
-	<a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Author%20Override&amp;url=http://localhost:4000/articles/author-override/&amp;via=mmistakes" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Share on Twitter</a>
-	<a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/articles/author-override/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Share on Facebook</a>
-	<a class="btn-social google-plus"  href="https://plus.google.com/share?url=http://localhost:4000/articles/author-override/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i> Share on Google+</a>
-</div><!-- /.share-this -->
-
+					
 					<div class="page-meta">
-	<p>Updated <time datetime="2014-06-24T04:19:16Z" itemprop="datePublished">June 24, 2014</time></p>
+	<p>更新于 <time datetime="2019-02-15T00:00:00Z" itemprop="datePublished">February 15, 2019</time></p>
 </div><!-- /.page-meta -->
 				</footer><!-- /.footer -->
 				<aside>
@@ -182,20 +148,7 @@
 				</aside>
 			</div><!-- /.content -->
 		</div><!-- /.inner-wrap -->
-		<div class="ads"><style>
-.responsive-ads { width: 300px; height: 200px; }
-@media(min-width: 520px) { .responsive-ads { width: 468px; height: 60px; } }
-@media(min-width: 768px) { .responsive-ads { width: 160px; height: 600px; } }
-</style>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle responsive-ads"
-	style="display:inline-block"
-	data-ad-client="ca-pub-7328585512091257"
-	data-ad-slot="3049671934"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script></div><!-- /.ads -->
+		
 	</article><!-- ./wrap -->
 </div><!-- /#main -->
 
@@ -204,16 +157,16 @@
 		<ul class="menu-item">
 		
       
-			<li><a href="http://localhost:4000/" >Home</a></li>
+			<li><a href="http://localhost:4000/" >开始</a></li>
 		
       
-			<li><a href="http://localhost:4000/getting-started/" >Getting Started</a></li>
+			<li><a href="http://localhost:4000/getting-started/" >首页</a></li>
 		
       
-			<li><a href="http://localhost:4000/about/" >About</a></li>
+			<li><a href="http://localhost:4000/about/" >关于</a></li>
 		
       
-			<li><a href="http://localhost:4000/terms/" >Terms</a></li>
+			<li><a href="http://localhost:4000/terms/" >条款</a></li>
 		
 		</ul>
 	</nav><!-- /.bottom-menu -->

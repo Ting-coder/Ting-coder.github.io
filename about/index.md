@@ -1,8 +1,8 @@
 ---
 layout: article
-title: "About"
-date: 2014-06-02T09:44:20-04:00
-modified: 2014-08-27T14:56:44-04:00
+title: "关于我"
+date: 2019-02-15T09:44:20-04:00
+modified: 2019-02-15T14:56:44-04:00
 excerpt: "This is the Skinny Bones about page."
 image:
   feature:
@@ -12,6 +12,11 @@ share: false
 ads: false
 ---
 
-This is a work in progress.
+以下是我的简介.
 
-Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
+此身为剑所天成，身如钢铁，心似琉璃。
+纵横沙场无数，未尝败绩。
+然虽不曾落败，却也不被理解。
+其常立于剑丘之上，沉醉于胜利之中。
+因此，其之一生，没有意义。
+其身定为剑所天成。
