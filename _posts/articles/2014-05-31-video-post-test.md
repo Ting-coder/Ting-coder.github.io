@@ -7,9 +7,9 @@ categories: articles
 excerpt: "A post with a YouTube video."
 tags: [video]
 ads: true
-image:
+<!-- image:
   feature:
-  teaser:
+  teaser: -->
 ---
 
 Here's a sample video to test FitVid.js

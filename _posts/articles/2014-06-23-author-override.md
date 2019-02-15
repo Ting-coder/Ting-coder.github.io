@@ -8,10 +8,10 @@ categories: articles
 excerpt: "A post to test author overrides using a data file."
 tags: []
 ads: true
-image:
+<!-- image:
   feature:
   teaser:
-  thumb:
+  thumb: -->
 ---
 
 For those of you who may have content written by multiple authors on your site you can assign different authors to each post if desired.

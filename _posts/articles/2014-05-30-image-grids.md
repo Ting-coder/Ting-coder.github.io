@@ -7,9 +7,9 @@ categories: articles
 excerpt: "Demoing the various thumbnail grid styles."
 tags: []
 ads: true
-image:
+<!-- image:
   feature:
-  teaser:
+  teaser: -->
 ---
 
 This is a post to test image grids.

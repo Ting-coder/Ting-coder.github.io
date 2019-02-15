@@ -5,8 +5,8 @@ categories: articles
 excerpt: "Custom written post descriptions are the way to go... if you're not lazy."
 tags: [sample, readability]
 modified: 2013-06-30
-image:
-  feature: 1600x800.gif
+<!-- image:
+  feature: 1600x800.gif -->
 ads: true  
 ---
 
